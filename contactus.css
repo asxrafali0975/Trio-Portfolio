@@ -1,0 +1,337 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+#main {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+
+
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #090020, black, #090020);
+
+
+}
+
+nav {
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(90deg, #090020, black, #090020);
+    border-bottom: 0.1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#left,
+#right {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+#right {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#dynamic_duo {
+    text-wrap: 0;
+    text-align: center;
+}
+
+#image_container {
+    background: url("pic5.png");
+}
+
+#mainbody {
+    height: 90%;
+
+
+}
+
+#imagediv {
+
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+
+
+
+}
+
+#textcontent {
+
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0.83;
+    background: transparent;
+
+
+
+
+}
+
+form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+
+    background: transparent;
+
+    border-radius: 20px;
+    border: 2px solid white;
+
+
+}
+
+#textcontent h1 {
+    color: white;
+}
+
+input {
+    background-color: rgb(227, 197, 227);
+    height: 10%;
+    width: 80%;
+    text-align: center;
+    color: black;
+}
+
+#submitbtn {
+    color: purple
+}
+
+
+img {
+    height: 110%;
+    width: 90%;
+
+}
+
+#purple_text,
+#typed-output {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+
+    display: block;
+    font-weight: bolder;
+}
+
+
+
+#contactus {
+    display: none;
+}
+
+
+#dynamic_duo {
+    display: block;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    color: black;
+}
+
+
+
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+
+}
+
+
+#page3 {
+
+    height: 100%;
+
+    width: 100%;
+}
+
+
+
+
+
+/* responsive */
+
+
+@media (min-width:800px) and (max-width:1000px) {
+
+
+    #contactus {
+        display: inline-block;
+    }
+
+    img {
+        height: 110%;
+        width: 60%;
+    }
+
+    #imagediv {
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+    }
+
+    #textcontent{
+       /* background-color: red; */
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    form{
+        width: 70%;
+    }
+
+}
+
+@media (min-width:1000px) {
+
+
+    #contactus {
+        display: inline-block;
+    }
+
+    #mainbody {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #textcontent {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #purple_text,
+    #purple_tex,
+    #typed-output {
+        font-size: 130%;
+    }
+
+    img {
+        height: 120%;
+        width: 70%;
+    }
+
+
+    #imagediv {
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+    }
+
+
+}
+
+@media (min-width:1400px) {
+    img {
+        height: 120%;
+        width: 70%;
+    }
+
+
+    #imagediv {
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+    }
+
+
+
+
+}
+
+@media (min-width:1600px) {
+    img {
+        height: 150%;
+        width: 60%;
+    }
+
+
+
+    #imagediv {
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+    }
+
+     form{
+        width: 80%;
+    }
+
+
+
+}
